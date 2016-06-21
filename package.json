@@ -9,6 +9,7 @@
     "lodash": "^4.13.1",
     "react": "^15.1.0",
     "react-native": "^0.27.2",
-    "react-native-ui": "^1.0.0"
+    "react-native-ui": "^1.0.0",
+    "react-native-vector-icons": "^2.0.3"
   }
 }
