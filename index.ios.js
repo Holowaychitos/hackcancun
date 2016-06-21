@@ -18,14 +18,17 @@ const {
 const Views = {
   home: {
     title: 'Home',
+    icon: 'home',
     component: require('./views/Home')
   },
   ranking: {
     title: 'Ranking',
+    icon: 'trophy',
     component: require('./views/Ranking')
   },
   stats: {
     title: 'Stats',
+    icon: 'graph-pie',
     component: require('./views/Stats')
   }
 }
