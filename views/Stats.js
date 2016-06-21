@@ -35,6 +35,7 @@ const Stats = React.createClass({
           showGrid={true}
           barSpacing={0}
           style={{
+            marginTop: 50,
             height: 150,
             margin: 15,
           }}/>

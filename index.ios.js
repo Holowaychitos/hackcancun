@@ -19,7 +19,8 @@ const Views = {
   home: {
     title: 'Home',
     icon: 'home',
-    component: require('./views/Home')
+    component: require('./views/Home'),
+    center: true
   },
   ranking: {
     title: 'Ranking',
@@ -32,7 +33,7 @@ const Views = {
     component: require('./views/Stats')
   },
   tips: {
-    title: 'Tips',
+    title: 'Actividades',
     icon: 'lightbulb',
     component: require('./views/Tips')
   }
@@ -59,7 +60,7 @@ const hackcancun = React.createClass({
     return (
       <ColoredView color='#8E44AD' title={Views[currentViewKey].title} customStyles={customStyles}>
         <View style={styles.scrollView} key={currentViewKey}>
-          <ScrollView style={styles.scrollView} centerContent={true}>
+          <ScrollView style={styles.scrollView} centerContent={Views[currentViewKey].center}>
             <CurrentView style={{flex: 1}}/>
           </ScrollView>
         </View>
