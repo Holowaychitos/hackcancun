@@ -30,6 +30,11 @@ const Views = {
     title: 'Stats',
     icon: 'graph-pie',
     component: require('./views/Stats')
+  },
+  tips: {
+    title: 'Tips',
+    icon: 'lightbulb',
+    component: require('./views/Tips')
   }
 }
 
@@ -53,9 +58,11 @@ const hackcancun = React.createClass({
 
     return (
       <ColoredView color='#8E44AD' title={Views[currentViewKey].title} customStyles={customStyles}>
-        <ScrollView contentContainerStyle={styles.scrollView}>
-          <CurrentView style={{flex: 1}}/>
-        </ScrollView>
+        <View style={styles.scrollView} key={currentViewKey}>
+          <ScrollView style={styles.scrollView} centerContent={true}>
+            <CurrentView style={{flex: 1}}/>
+          </ScrollView>
+        </View>
         <NavigationBar active={currentViewKey} content={Views} onChange={this.onNavigationChange} />
       </ColoredView>
     );
@@ -64,7 +71,7 @@ const hackcancun = React.createClass({
 
 const customStyles = {
   container: {
-    backgroundColor: '#fafbfc'
+    backgroundColor: '#fff'
   }
 }
 

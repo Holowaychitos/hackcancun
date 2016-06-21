@@ -11,11 +11,15 @@ const Home = React.createClass({
   },
 
   componentDidMount() {
-    setInterval(() => {
+    this.animation = setInterval(() => {
       this.setState({
         currentSprite: this.state.currentSprite === 1 ? 2 : 1
       })
-    }, 500)
+    }, 400)
+  },
+
+  componentWillUnmount() {
+    clearInterval(this.animation)
   },
 
   render() {

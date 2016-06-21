@@ -7,7 +7,7 @@ const Ranking = React.createClass({
   render: function() {
     return (
       <View>
-        <Text>ranking</Text>
+        <Text>tehehe2</Text>
       </View>
     )
   }
