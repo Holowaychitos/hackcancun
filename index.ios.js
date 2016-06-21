@@ -53,8 +53,8 @@ const hackcancun = React.createClass({
 
     return (
       <ColoredView color='#8E44AD' title={Views[currentViewKey].title} customStyles={customStyles}>
-        <ScrollView style={styles.scrollView}>
-          <CurrentView />
+        <ScrollView contentContainerStyle={styles.scrollView}>
+          <CurrentView style={{flex: 1}}/>
         </ScrollView>
         <NavigationBar active={currentViewKey} content={Views} onChange={this.onNavigationChange} />
       </ColoredView>
@@ -64,7 +64,7 @@ const hackcancun = React.createClass({
 
 const customStyles = {
   container: {
-    backgroundColor: '#ECF0F1'
+    backgroundColor: '#fafbfc'
   }
 }
 
