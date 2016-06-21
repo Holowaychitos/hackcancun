@@ -26,9 +26,9 @@ const Views = {
     icon: 'trophy',
     component: require('./views/Ranking')
   },
-  stats: {
-    title: 'Stats',
-    icon: 'graph-pie',
+  progress: {
+    title: 'Progreso',
+    icon: 'graph-bar',
     component: require('./views/Stats')
   },
   tips: {
@@ -63,7 +63,10 @@ const hackcancun = React.createClass({
             <CurrentView style={{flex: 1}}/>
           </ScrollView>
         </View>
-        <NavigationBar active={currentViewKey} content={Views} onChange={this.onNavigationChange} />
+        <NavigationBar
+          active={currentViewKey}
+          content={Views}
+          onChange={this.onNavigationChange} />
       </ColoredView>
     );
   }
