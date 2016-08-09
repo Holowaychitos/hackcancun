@@ -9,6 +9,11 @@ const Stats = React.createClass({
   render: function() {
     return (
       <View>
+        <View style={{paddingLeft: 32, paddingTop: 20, paddingBottom: 16}}>
+          <Text style={styles.text}>
+            Puntos de actividad conseguidos 🏆
+          </Text>
+        </View>
         <BarChart
           dataSets={[
             {
@@ -35,14 +40,13 @@ const Stats = React.createClass({
           showGrid={true}
           barSpacing={0}
           style={{
-            marginTop: 50,
             height: 150,
             margin: 15,
           }}/>
         <View style={{padding: 32}}>
-          <Text>Tus stats la ultima semana 💪</Text>
+          <Text style={styles.text}>Tus stats la ultima semana 💪</Text>
 
-          <Text style={{fontWeight: '700', marginTop: 16}}>
+          <Text style={styles.textBold}>
             ¡Tienes más puntos de esfuerzo que la vez pasada, felicidades! 🏆
           </Text>
         </View>
@@ -57,5 +61,16 @@ const Stats = React.createClass({
     )
   }
 })
+
+const styles = {
+  text: {
+    fontSize: 16
+  },
+  textBold: {
+    fontWeight: '700',
+    marginTop: 16,
+    fontSize: 16
+  }
+}
 
 module.exports = Stats

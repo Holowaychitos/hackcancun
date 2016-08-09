@@ -8,11 +8,75 @@ const Ranking = React.createClass({
     return (
       <View>
         <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/445400536569749504/8vJ-Prbe_400x400.png'}} style={styles.rankingImage} />
           <View style={styles.rankingInfo}>
             <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
+              <Text style={styles.rankingTitle}>Maru Lango</Text>
+            </View>
+            <View style={styles.rankingInfoSecond}>
+              <Text style={styles.rankingSuccess}>+11</Text>
+              <Text>esta semana</Text>
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.rakingItem}>
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/423174396069441536/2IRA_C-W_400x400.jpeg'}} style={styles.rankingImage} />
+          <View style={styles.rankingInfo}>
+            <View style={styles.rankingInfoFirst}>
+              <Text style={styles.rankingTitle}>Jeduan Cornejo</Text>
+            </View>
+            <View style={styles.rankingInfoSecond}>
+              <Text style={styles.rankingSuccess}>+5</Text>
+              <Text>esta semana</Text>
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.rakingItem}>
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/718228933091729408/aguelcQt_400x400.jpg'}} style={styles.rankingImage} />
+          <View style={styles.rankingInfo}>
+            <View style={styles.rankingInfoFirst}>
+              <Text style={styles.rankingTitle}>Melissa Garo</Text>
+            </View>
+            <View style={styles.rankingInfoSecond}>
+              <Text style={styles.rankingSuccess}>+3</Text>
+              <Text>esta semana</Text>
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.rakingItem}>
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/725470639377666049/woDWTAN1_400x400.jpg'}} style={styles.rankingImage} />
+          <View style={styles.rankingInfo}>
+            <View style={styles.rankingInfoFirst}>
+              <Text style={styles.rankingTitle}>Javier Bórquez</Text>
+            </View>
+            <View style={styles.rankingInfoSecond}>
+              <Text style={styles.rankingSuccess}>+2</Text>
+              <Text>esta semana</Text>
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.rakingItem}>
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/2696674759/e8cebae23a94b3b6a81e1321f7dc55a2_400x400.png'}} style={styles.rankingImage} />
+          <View style={styles.rankingInfo}>
+            <View style={styles.rankingInfoFirst}>
+              <Text style={styles.rankingTitle}>Iddar Olivares</Text>
+            </View>
+            <View style={styles.rankingInfoSecond}>
+              <Text style={styles.rankingSuccess}>+2</Text>
+              <Text>esta semana</Text>
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.rakingItem}>
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/3075233293/92380e10b8a09207f649c61e791b3a62_400x400.jpeg'}} style={styles.rankingImage} />
+          <View style={styles.rankingInfo}>
+            <View style={styles.rankingInfoFirst}>
+              <Text style={styles.rankingTitle}>Alberto Nava</Text>
             </View>
             <View style={styles.rankingInfoSecond}>
               <Text style={styles.rankingSuccess}>+1</Text>
@@ -22,11 +86,10 @@ const Ranking = React.createClass({
         </View>
 
         <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/707330965945778177/rOTBtyuu_400x400.jpg'}} style={styles.rankingImage} />
           <View style={styles.rankingInfo}>
             <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
+              <Text style={styles.rankingTitle}>Diana Mariel</Text>
             </View>
             <View style={styles.rankingInfoSecond}>
               <Text style={styles.rankingSuccess}>+1</Text>
@@ -36,81 +99,10 @@ const Ranking = React.createClass({
         </View>
 
         <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
+          <Image source={{uri: 'https://pbs.twimg.com/profile_images/690450362755604480/6JXIqk3g_400x400.jpg'}} style={styles.rankingImage} />
           <View style={styles.rankingInfo}>
             <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
-            </View>
-            <View style={styles.rankingInfoSecond}>
-              <Text style={styles.rankingSuccess}>+1</Text>
-              <Text>esta semana</Text>
-            </View>
-          </View>
-        </View>
-
-        <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
-          <View style={styles.rankingInfo}>
-            <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
-            </View>
-            <View style={styles.rankingInfoSecond}>
-              <Text style={styles.rankingSuccess}>+1</Text>
-              <Text>esta semana</Text>
-            </View>
-          </View>
-        </View>
-
-        <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
-          <View style={styles.rankingInfo}>
-            <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
-            </View>
-            <View style={styles.rankingInfoSecond}>
-              <Text style={styles.rankingSuccess}>+1</Text>
-              <Text>esta semana</Text>
-            </View>
-          </View>
-        </View>
-
-        <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
-          <View style={styles.rankingInfo}>
-            <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
-            </View>
-            <View style={styles.rankingInfoSecond}>
-              <Text style={styles.rankingSuccess}>+1</Text>
-              <Text>esta semana</Text>
-            </View>
-          </View>
-        </View>
-
-        <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
-          <View style={styles.rankingInfo}>
-            <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
-            </View>
-            <View style={styles.rankingInfoSecond}>
-              <Text style={styles.rankingSuccess}>+1</Text>
-              <Text>esta semana</Text>
-            </View>
-          </View>
-        </View>
-
-        <View style={styles.rakingItem}>
-          <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2013/02/17/12/24/fruits-82524_960_720.jpg'}} style={styles.rankingImage} />
-          <View style={styles.rankingInfo}>
-            <View style={styles.rankingInfoFirst}>
-              <Text style={styles.rankingTitle}>Title</Text>
-              <Text>Title</Text>
+              <Text style={styles.rankingTitle}>Magio Bus</Text>
             </View>
             <View style={styles.rankingInfoSecond}>
               <Text style={styles.rankingSuccess}>+1</Text>
@@ -138,8 +130,7 @@ const styles = {
     width: 50
   },
   rankingTitle: {
-    fontSize: 20,
-    fontWeight: '700',
+    fontSize: 16,
     marginBottom: 4
   },
   rankingInfo: {

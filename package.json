@@ -11,6 +11,8 @@
     "react-native": "^0.27.2",
     "react-native-charts": "^3.0.0",
     "react-native-ui": "^1.0.0",
-    "react-native-vector-icons": "^2.0.3"
+    "react-native-vector-icons": "^2.0.3",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.6"
   }
 }
